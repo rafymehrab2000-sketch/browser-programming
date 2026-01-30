@@ -1,51 +1,42 @@
 # Lecture 02 – Semantic HTML & Structure
 
 ## 1. What I implemented this lecture
-- Created a semantic page using `<header>`, `<main>`, `<section>`, `<article>`, and `<footer>`
-- Added a Portfolio section with images, links, and an embedded video using `<iframe>`
-- Added accessibility basics: skip link, heading hierarchy, and alt text for images
+- Created a semantic page using header, main, section, article, and footer elements
+- Added a Portfolio section with images, links, and an embedded video
+- Included accessibility features like skip link and alt text
 
 ---
 
-## 2. Semantic decisions I made (REQUIRED)
+## 2. Semantic decisions I made
 
 ### Decision 1
-- Element(s) used: `<header>` and `<h1>`
-- Where in the page: At the top of the page
-- Why this element is semantically correct: The header contains the introduction and the single h1 is the main title.
+- Used <header> for introductory content at the top of the page
 
 ### Decision 2
-- Element(s) used: `<main>` and skip link `<a href="#main">`
-- Where in the page: Main content wrapper and top of the page
-- Why this element is semantically correct: `<main>` defines the central content and skip link improves accessibility.
+- Used <main> to wrap the central content and added a skip link for accessibility
 
 ### Decision 3
-- Element(s) used: `<figure>` and `<figcaption>`
-- Where in the page: Portfolio media section
-- Why this element is semantically correct: Figures group media with captions in a meaningful way.
+- Used <figure> and <figcaption> to group media with captions in the portfolio section
 
 ---
 
 ## 3. Accessibility considerations
-- Added a skip link for keyboard users
-- Used correct heading order (h1 → h2 → h3)
-- Included alt text for all images
+- Skip link added for keyboard navigation
+- Correct heading hierarchy used
+- Alt text included for all images
 
 ---
 
 ## 4. What I learned
-- Semantic HTML improves structure and readability
-- Accessibility features help all users
+- Semantic HTML improves readability and structure
 
 ---
 
 ## 5. What I still need to improve
-- Writing better alt text
-- Adding more real portfolio projects
+- Add real portfolio images and more content
 
 ---
 
-## 6. Notes about AI usage (if any)
+## 6. Notes about AI usage
 - Tool used: ChatGPT
-- What I accepted as-is: Base structure template
-- What I modified manually: Personal details and content
+- Modified manually: Personal info and section content
