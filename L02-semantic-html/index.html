@@ -3,55 +3,168 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lecture 02</title>
+  <title>Lecture 02 – Semantic HTML</title>
 </head>
 <body>
+
+  <!-- Accessibility: Skip link -->
   <a href="#main">Skip to content</a>
 
+  <!-- Header -->
   <header>
     <h1>Rafy Mehrab</h1>
-    <p>Student • Browser Programming • Helsinki, Finland</p>
+    <p>Student • Browser Programming • Kuopio, Finland</p>
     <p>Short bio: Learning semantic HTML and accessibility.</p>
   </header>
 
   <main id="main">
-    <section>
-      <h2>Portfolio / Works</h2>
+
+    <!-- Portfolio / Works -->
+    <section aria-labelledby="portfolio-title">
+      <h2 id="portfolio-title">Portfolio / Works</h2>
+
+      <!-- Profile photo -->
       <figure>
-        <img src="profile.jpg" alt="Profile photo of Rafy Mehrab" width="400">
-        <figcaption>My profile photo</figcaption>
+        <img src="profile.jpg" alt="Profile photo of Rafy Mehrab on a ski slope" width="350" />
+        <figcaption>Profile photo</figcaption>
       </figure>
 
+      <!-- Statistics (edit these numbers anytime) -->
+      <section aria-labelledby="stats-title">
+        <h3 id="stats-title">My Statistics</h3>
+        <ul>
+          <li>Projects completed: 2</li>
+          <li>Weeks completed: Week 1 + Lecture 02</li>
+          <li>GitHub repositories: 1</li>
+          <li>Learning experience: 6 months</li>
+        </ul>
+        <p>(You can edit these numbers in the HTML.)</p>
+      </section>
 
-      <p>
-        <a href="https://github.com/rafymehrab2000-sketch">My GitHub</a>
-      </p>
+      <!-- Links -->
+      <section aria-labelledby="links-title">
+        <h3 id="links-title">Links</h3>
+        <ul>
+          <li>
+            <a href="https://github.com/rafymehrab2000-sketch" target="_blank" rel="noopener">
+              My GitHub
+            </a>
+          </li>
+          <li>
+            <a href="../week-1/" target="_blank" rel="noopener">
+              Week 1 Page
+            </a>
+          </li>
+        </ul>
+      </section>
 
+      <!-- Projects -->
+      <section aria-labelledby="projects-title">
+        <h3 id="projects-title">Work / Projects</h3>
+
+        <!-- Project 1 -->
+        <article aria-labelledby="project1-title">
+          <h4 id="project1-title">Smart Home Controller (UI Prototype)</h4>
+
+          <figure>
+            <img
+              src="smart-home.png"
+              alt="Screenshot of Smart Home Controller interface showing on/off devices and slider-controlled devices"
+              width="700"
+            />
+            <figcaption>
+              Main page overview: device cards and slider controls (Thermostat and Ceiling Fan).
+            </figcaption>
+          </figure>
+
+          <p>
+            Description: A simple interface concept for controlling smart home devices (lights, door lock, thermostat, fan).
+          </p>
+
+          <p>
+            Project link:
+            <a href="https://github.com/rafymehrab2000-sketch" target="_blank" rel="noopener">
+              (Add your real project link here later)
+            </a>
+          </p>
+        </article>
+
+        <!-- Project 2 (example placeholder) -->
+        <article aria-labelledby="project2-title">
+          <h4 id="project2-title">Week 1 – First GitHub Pages Website</h4>
+
+          <figure>
+            <img
+              src="https://placehold.co/800x450"
+              alt="Placeholder image for Week 1 website screenshot"
+              width="700"
+            />
+            <figcaption>Week 1: My first published GitHub Pages page</figcaption>
+          </figure>
+
+          <p>
+            Description: My first Browser Programming page published using GitHub Pages.
+          </p>
+
+          <p>
+            Link:
+            <a href="../week-1/" target="_blank" rel="noopener">Open Week 1</a>
+          </p>
+        </article>
+
+      </section>
+
+      <!-- Embedded video -->
       <figure>
-        <iframe width="560" height="315"
+        <iframe
+          width="560"
+          height="315"
           src="https://www.youtube.com/embed/dD2EISBDjWM"
-          title="YouTube video"
-          allowfullscreen></iframe>
-        <figcaption>Embedded video</figcaption>
+          title="HTML Basics Tutorial"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+        <figcaption>Embedded video: HTML basics tutorial</figcaption>
       </figure>
+
     </section>
 
-    <section>
-      <h2>Areas of Interest</h2>
-      <ul>
-        <li>Semantic HTML</li>
-        <li>Accessibility</li>
-        <li>Web development</li>
-      </ul>
+    <!-- Areas of Interest -->
+    <section aria-labelledby="interests-title">
+      <h2 id="interests-title">Areas of Interest</h2>
+
+      <article aria-labelledby="interest-list-title">
+        <h3 id="interest-list-title">My interests</h3>
+        <ul>
+          <li>Semantic HTML and accessibility</li>
+          <li>Web development fundamentals</li>
+          <li>JavaScript programming (future lectures)</li>
+          <li>UI/UX and clean layouts</li>
+          <li>Git and GitHub</li>
+          <li>Building personal projects</li>
+        </ul>
+      </article>
     </section>
+
   </main>
 
+  <!-- Footer -->
   <footer>
-    <p>
-      <a href="https://github.com/rafymehrab2000-sketch">GitHub</a>
-      |
-      <a href="https://www.linkedin.com/">LinkedIn</a>
-    </p>
+    <h2>Social Links</h2>
+    <ul>
+      <li>
+        <a href="https://github.com/rafymehrab2000-sketch" target="_blank" rel="noopener">
+          GitHub
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+          LinkedIn
+        </a>
+      </li>
+    </ul>
+    <p>&copy; 2026 Rafy Mehrab</p>
   </footer>
+
 </body>
 </html>
