@@ -1,56 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lecture 02</title>
-</head>
-<body>
-  <a href="#main">Skip to content</a>
+# Lecture 02 – Semantic HTML & Structure
 
-  <header>
-    <h1>Rafy Mehrab</h1>
-    <p>Student • Browser Programming • Helsinki, Finland</p>
-    <p>Short bio: Learning semantic HTML and accessibility.</p>
-  </header>
+## 1. What I implemented this lecture
+- Created a semantic HTML page using header, main, section, article, and footer
+- Added a portfolio section with images, links, and an embedded video
+- Added accessibility features like skip link and alt text
 
-  <main id="main">
-    <section>
-      <h2>Portfolio / Works</h2>
-      <figure>
-        <img src="https://via.placeholder.com/800x400" alt="Placeholder project image" />
-        <figcaption>Project image</figcaption>
-      </figure>
+## 2. Semantic decisions I made
 
-      <p>
-        <a href="https://github.com/rafymehrab2000-sketch">My GitHub</a>
-      </p>
+### Decision 1
+I used the header element to introduce the page with my name and bio.
 
-      <figure>
-        <iframe width="560" height="315"
-          src="https://www.youtube.com/embed/dD2EISBDjWM"
-          title="YouTube video"
-          allowfullscreen></iframe>
-        <figcaption>Embedded video</figcaption>
-      </figure>
-    </section>
+### Decision 2
+I used the main element to wrap the central content and added a skip link.
 
-    <section>
-      <h2>Areas of Interest</h2>
-      <ul>
-        <li>Semantic HTML</li>
-        <li>Accessibility</li>
-        <li>Web development</li>
-      </ul>
-    </section>
-  </main>
+### Decision 3
+I used figure and figcaption to group media with captions.
 
-  <footer>
-    <p>
-      <a href="https://github.com/rafymehrab2000-sketch">GitHub</a>
-      |
-      <a href="https://www.linkedin.com/">LinkedIn</a>
-    </p>
-  </footer>
-</body>
-</html>
+## 3. Accessibility considerations
+- Skip link for keyboard navigation
+- Proper heading hierarchy
+- Alt text for images
+
+## 4. What I learned
+Semantic HTML improves structure and accessibility.
+
+## 5. What I still need to improve
+Adding more real projects and better descriptions.
+
+## 6. Notes about AI usage
+Tool used: ChatGPT
+Modified manually: Personal content and details
