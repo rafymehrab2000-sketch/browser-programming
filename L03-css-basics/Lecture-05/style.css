@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: white;
+  color: #222;
+}
+
+header,
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eeeeee;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.skills-list li,
+.project-card {
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+}
+
+.project-card {
+  margin-bottom: 15px;
+}
+
+.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.dark header,
+.dark footer {
+  background-color: #1f1f1f;
+}
+
+.dark .skills-list li,
+.dark .project-card {
+  background-color: #222;
+  border-color: #444;
+}
+
+.dark a {
+  color: #8ab4ff;
+}
