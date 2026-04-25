@@ -1,32 +1,21 @@
-# Lecture 02 – Semantic HTML & Structure
+# Lecture 03 – CSS Basics
 
-## 1. What I implemented this lecture
-- Created a semantic HTML page using header, main, section, article, and footer
-- Added a portfolio section with images, links, and an embedded video
-- Added accessibility features like skip link and alt text
+## What I implemented this lecture
+- Linked an external CSS file
+- Styled typography with font, line height, and heading sizes
+- Added spacing using margin and padding
+- Styled the header, footer, navigation, and images
 
-## 2. Semantic decisions I made
+## CSS selectors I used (at least 5)
+- Element selector: body, h1, h2, img
+- Group selector: header, footer
+- Descendant selector: nav a
+- Class selector: .card
+- ID selector: #works
+- Pseudo-class: nav a:hover
 
-### Decision 1
-I used the header element to introduce the page with my name and bio.
+## One thing I struggled with
+- Understanding the difference between margin and padding
 
-### Decision 2
-I used the main element to wrap the central content and added a skip link.
-
-### Decision 3
-I used figure and figcaption to group media with captions.
-
-## 3. Accessibility considerations
-- Skip link for keyboard navigation
-- Proper heading hierarchy
-- Alt text for images
-
-## 4. What I learned
-Semantic HTML improves structure and accessibility.
-
-## 5. What I still need to improve
-Adding more real projects and better descriptions.
-
-## 6. Notes about AI usage
-Tool used: ChatGPT
-Modified manually: Personal content and details
+## One improvement I want to do next
+- Improve the layout using Flexbox
